@@ -1,0 +1,28 @@
+
+body {
+    font-family: Arial;
+}
+
+h1 {
+    text-align: center;
+}
+
+#left-column {
+    width: 50%;
+    float: left;
+}
+#right-column {
+    width: 50%;
+    float: right;
+}
+
+.image-container {
+  display: block;
+  vertical-align: top;
+  width: 100%;
+  
+}
+
+img {
+  width: 100%;
+}
