@@ -16,6 +16,7 @@ h1 {
     float: right;
 }
 
+
 .image-container {
   display: block;
   vertical-align: top;
@@ -25,5 +26,13 @@ h1 {
 }
 
 img {
+  width: 75%;
+}
+
+.button-space {
+  text-align: center;
+}
+
+#netflix-img {
   width: 100%;
 }
