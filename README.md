@@ -3,7 +3,7 @@ hw-03 - Interactive Webpage
 
 (GitHub Pages)[insert your clickable hyperlink here]
 
-Clone this repo and work locally. Be sure to push the final version of your code (and any significant updates along the way) before submitting. 
+Clone this repo and work locally. Be sure to push the final version of your code (and any significant updates along the way) before submitting
 
 ## Purpose
 
