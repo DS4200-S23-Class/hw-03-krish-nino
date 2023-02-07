@@ -19,8 +19,8 @@ h1 {
 .image-container {
   display: block;
   vertical-align: top;
-  width: 100%;
-  
+  width: 50%;
+  height: 50%;
 }
 
 img {
