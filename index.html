@@ -15,19 +15,12 @@
       <button onclick="changeColor()">Change color</button> </div>
 
     <!-- Divide your webpage into two columns. -->
-    <div id="left-column">
-        <div class="image-container">
+    <div class="grid">
+        <div class="image-container" class="first">
           <img src="img/vis1.png">
         </div>
-        <div class="image-container">
-          <img src="img/vis2.png">
-        </div>
-        <div class="image-container" id="netflix-img">
-          <img src="img/output.jpeg">
-        </div>
-      </div>
-    <div id = "right-column" >
-      <div class="text-container">
+
+        <div class="text-container" class="first">
           <h2>Marks</h2>
           <ul>
               <li>Point</li>
@@ -58,38 +51,43 @@
               </ul>
 
           </div> 
-          <div class = "text-container"> 
+        <div class="image-container">
+          <img src="img/vis2.png">
+        </div>
+        <div class = "text-container"> 
 
-              <h2>Marks</h2>
-          <ul>
-              <li>Point</li>
-              <li>Text</li>
-              <li>Line</li> 
-            </ul>
+          <h2>Marks</h2>
+      <ul>
+          <li>Point</li>
+          <li>Text</li>
+          <li>Line</li> 
+        </ul>
 
-            <h2>Channels</h2>
-            <ul>
-                <li>Channel1</li>
-                <ul> 
-                  <li> Represents ...  </li>
-                  <li> </li>
-                  </ul>
-                <li>Text</li>
-                <li>Line</li> 
+        <h2>Channels</h2>
+        <ul>
+            <li>Channel1</li>
+            <ul> 
+              <li> Represents ...  </li>
+              <li> </li>
               </ul>
+            <li>Text</li>
+            <li>Line</li> 
+          </ul>
 
-              <h2>ColorMap(s)</h2>
-            <ul>
-                <li>Channel1</li>
-                <ul> 
-                  <li> Represents ...  </li>
-                  <li> </li>
-                  </ul>
-                <li>Text</li>
-                <li>Line</li> 
+          <h2>ColorMap(s)</h2>
+        <ul>
+            <li>Channel1</li>
+            <ul> 
+              <li> Represents ...  </li>
+              <li> </li>
               </ul>
-          </div>
-
+            <li>Text</li>
+            <li>Line</li> 
+          </ul>
+      </div>
+        <div class="image-container" id="netflix-img">
+          <img src="img/output.jpeg">
+        </div>
           <div class = "text-container"> 
 
             <h2>Marks</h2>
