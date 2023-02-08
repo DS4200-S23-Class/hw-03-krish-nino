@@ -23,15 +23,31 @@
         <div class="text-container" class="first">
           <h2>Marks</h2>
           <ul>
-              <li>Areas: Electoral vote and US Map</li>
+              <li>Areas</li>
+              <ul> 
+                <li>Areas represent the number of electoral votes in each state</li>
+                </ul>
               <li>Lines</li> 
+              <ul> 
+                <li>Lines represent the bar that compares republican vs democratic votes</li>
+                </ul>
             </ul>
             <h2>Channels</h2>
             <ul>
-                <li>Color</li>
+                <li>Color: identity channel</li>
                 <ul> 
+                  <li> categorical attribute type </li>
                   <li>Color represents the party majority in each state. Blue represents Clinton, red represents Trump, and both means that there is no clear majority.  </li>
                   <li>This is a good mapping because the two different colors are easily distinguishable from eachother. The viewer can tell which political party is dominanting in a given state.</li>
+                  </ul>
+                  <li>Length: magnitude channel</li>
+                <ul> 
+                  <li> categorical attribute type </li>
+                  <li> The legnth represnts an ordianl attribute type that is seen in both the top bar and the state border.</li>
+                  <li>This is a good mapping because the length of the lines are easily distunguishable, and in the context of the visualization, 
+                    the viewer can tell which states have a clear majority and which states are more evenly split. As well as showing that 
+                    democaratic votes are much higher than republican votes.
+                  </li>
                   </ul>
             </ul>
             <h2 >ColorMap(s)</h2>
@@ -50,19 +66,21 @@
 
           <h2>Marks</h2>
       <ul>
-          <li>points: represents a datapoint</li>
+          <li>points: represents a datapoint that has a launch angle and exit velocity attribute</li>
         </ul>
 
         <h2>Channels</h2>
         <ul>
             <li>Position</li>
             <ul> 
+              <li> Ordered attribute type </li>
               <li> the x-axis represents the velocity and the y-axis represents the launch angle of the ball.   </li>
               <li> This is a good choice because you are able to see the correlation of both exit velocity and lauch angle,where most of these points lie, and you can clearly tell what each balls . </li>
               </ul>
-            <li>Color</li>
+            <li>Color(Hue/Luminance): identity/magnitude channel </li>
             <ul> 
-              <li> The brighter orange huge represnts a higher scoring hit, while a darker purple hue represenets a average-to-low scoring hit </li>
+              <li>Catergorical attribute type </li> 
+              <li> brighter orange huge represnts a higher scoring hit, while a darker purple hue represenets a average-to-low scoring hit </li>
               <li> While it allows the viewer to make assumptions about where the "ideal" spot for a hit would be. 
                 These colors can be lost in the gradient in the graphic, espcially in contrast to the white gradient. The colorscheme is also not the easiest to see and not might be acceessible for all   </li>
               </ul>
@@ -70,9 +88,9 @@
 
           <h2>ColorMap(s)</h2>
         <ul>
-            <li>Diverging: represeents the scoring of balls hit </li>
+            <li>Diverging: represents the scoring of balls hit </li>
             <ul> 
-              <li> As mentioned prior, this is a good colormap choice because the viewer can easily distinguish low scoring hits from high scoring hits. 
+              <li> This colormap is a decent choice. As mentioned prior, this is a good colormap choice because the viewer can easily distinguish low scoring hits from high scoring hits. 
                 The viewer can also tell that the majority of the hits are in the middle of the graph, which is what you would expect.
               </li>
               <li> </li>
